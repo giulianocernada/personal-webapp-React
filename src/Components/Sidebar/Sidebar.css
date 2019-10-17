@@ -1,0 +1,16 @@
+.sidebar {
+	height: 100%;
+	width: 0;
+	overflow-x: hidden;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	right: 0;
+	/*background-color: #FFF;*/
+	background-color: red;
+	color: #111;
+	transition: 0.5s;
+  	padding-top: 60px;
+  	text-align: left;
+  	z-index: 999;
+}
