@@ -1,11 +1,11 @@
 import React from 'react';
 import './Sidebar.css';
 
-const Sidebar = () => {
+const Sidebar = (props) => {
 	return (
 		<div className='sidebar'>
 			<ul>
-				<li>123</li>
+				<li onClick={props.clicked} className='touch'>Cerrar</li>
 				<li>123</li>
 				<li>123</li>
 			</ul>

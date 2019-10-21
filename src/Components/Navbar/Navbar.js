@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
 	return (
 		<div className='nav'>
 			<a href='#' className='header-title'><h1>Giuliano Cernada</h1></a>
@@ -11,7 +11,7 @@ const Navbar = () => {
 				<li className='lista-item'>Documentación</li>
 				<li className='lista-item'>Fotografía</li>
 				<li className='lista-item'>Acerca de</li>
-				<li className='lista-item'>Contacto</li>
+				<li onClick={props.clicked} className='lista-item'>Contacto</li>
 			</ul>
 		</div>
 	)
