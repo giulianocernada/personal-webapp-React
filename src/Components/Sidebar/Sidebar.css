@@ -7,7 +7,7 @@
 	top: 0;
 	right: 0;
 	/*background-color: #FFF;*/
-	background-color: red;
+	background-color: #FFF;
 	color: #111;
 	transition: 0.5s;
   	padding-top: 60px;
@@ -17,4 +17,39 @@
 
 .touch {
 	cursor: pointer;
+	margin: 0;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+.sidebar-title {
+	padding: 0 0 0 30px;
+	border-top: 1px solid gray;
+}
+
+.closeBtn {
+	text-align: right;
+	padding: 0 30px;
+}
+
+.listSidebar {
+	list-style: none;
+	padding: 0 0 0 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.listItem {
+	text-decoration: none;
+	color: #111;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+.mail {
+	padding-top: 20px;
+}
+
+.listSocial {
+	padding: 20px 0;
 }
