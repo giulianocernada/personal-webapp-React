@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Navbar from './Components/Navbar/Navbar'
-import Sidebar from './Components/Sidebar/Sidebar'
+import Navbar from './Components/Navbar/Navbar';
+import Sidebar from './Components/Sidebar/Sidebar';
+import Footer from './Components/Footer/Footer';
 import './App.css';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
 		    <div>
 		      <Navbar clicked={this.toggleContactSidebarHandler}/>
 		      {sidebar}
+		      <Footer />
 		    </div>
 		);
 	}
