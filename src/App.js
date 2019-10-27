@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Footer from './Components/Footer/Footer';
+import FrontImg from './Components/Main/FrontImg/FrontImg';
 import './App.css';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
 		    <div>
 		      <Navbar clicked={this.toggleContactSidebarHandler}/>
 		      {sidebar}
+		      <FrontImg />
 		      <Footer />
 		    </div>
 		);

@@ -7,6 +7,8 @@
 	height: 15vh;
 	text-shadow: 1px 1px 5px black;
 	font-family: 'Red Hat Text', sans-serif;
+	z-index: 1000;
+	position: fixed;
 }
 
 .header-title {
