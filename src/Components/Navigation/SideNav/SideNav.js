@@ -1,5 +1,7 @@
 import React from 'react';
 import Aux from '../../../HOC/Aux/Aux';
+import Logo from '../../Logo/Logo';
+import NavigationItems from '../../Navigation/NavigationItems/NavigationItems';
 import classes from './SideNav.css';
 
 const sideNav = (props) => {
@@ -10,7 +12,14 @@ const sideNav = (props) => {
 
 	return (
 		<Aux>
-			<div className={attachedClasses.join(' ')}>Holis</div>
+			<div className={attachedClasses.join(' ')}>
+				<div>
+					<Logo />
+				</div>
+				<nav>
+					<NavigationItems />
+				</nav>
+			</div>
 		</Aux>
 	)	
 }

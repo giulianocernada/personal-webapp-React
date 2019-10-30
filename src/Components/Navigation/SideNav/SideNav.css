@@ -6,7 +6,12 @@
     left: 0;
     top: 0;
     z-index: 200;
-    background-color: red;
+    /*background: linear-gradient(89deg, #868585 0%, #FFFFFF 100%);*/
+    /*background: linear-gradient(90deg, #030202 0%, #252525 100%);*/
+    /*background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 80%, transparent 100%);*/
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 100%);
+    color: white;
+    text-shadow: 1px 1px 5px black;
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform 0.5s ease-out;
