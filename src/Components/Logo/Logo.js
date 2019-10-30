@@ -1,8 +1,9 @@
 import React from 'react';
+import classes from './Logo.css';
 
 const logo = (props) => (
-	<div>
-		<p>LOGO</p>
+	<div className={classes.Logo}>
+		<h1>Giuliano Cernada</h1>
 	</div>
 );
 

@@ -1,0 +1,25 @@
+.NavToggle {
+    width: 40px;
+    height: 45%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 0px 0px 0px;
+}
+
+.NavToggle div {
+    width: 90%;
+    height: 3px;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px black;
+}
+
+@media (min-width: 500px) {
+    .NavToggle {
+        display: none;
+    }
+}

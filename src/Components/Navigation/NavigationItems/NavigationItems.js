@@ -4,12 +4,12 @@ import classes from './NavigationItems.css';
 
 const navigationItems = () => (
 	<ul className={classes.NavigationItems}>
-		<NavigationItem>Proyectos</NavigationItem>
-		<NavigationItem>Visualización</NavigationItem>
-		<NavigationItem>Documentación</NavigationItem>
-		<NavigationItem>Fotografía</NavigationItem>
-		<NavigationItem>Acerca de</NavigationItem>
-		<NavigationItem>Contacto</NavigationItem>
+		<NavigationItem link='/'>Proyectos</NavigationItem>
+		<NavigationItem link='/'>Visualización</NavigationItem>
+		<NavigationItem link='/'>Documentación</NavigationItem>
+		<NavigationItem link='/'>Fotografía</NavigationItem>
+		<NavigationItem link='/'>Acerca de</NavigationItem>
+		<NavigationItem link='/'>Contacto</NavigationItem>
 	</ul>
 );
 

@@ -1,0 +1,25 @@
+.Toolbar {
+	height: 15vh;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 5px black;
+}
+
+@media (max-width: 499px) {
+	.Toolbar {
+		padding: 0 15px;
+	}
+
+	.DesktopOnly {
+		display: none;
+	}
+}
