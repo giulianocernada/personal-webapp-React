@@ -4,7 +4,7 @@ class MainContent extends Component {
 	render(){
 		return (
 			<div>
-				Holis2
+				<p>Some content</p>
 			</div>
 		)
 	}
